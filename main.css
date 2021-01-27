@@ -1,0 +1,191 @@
+
+/* spaces */
+.space-12 {
+	margin-bottom: 12px;
+}
+
+.space-24 {
+	margin-bottom: 24px;
+}
+
+.space-40 {
+	margin-bottom: 40px;
+}
+
+.space-60 {
+	margin-bottom: 60px;
+}
+
+.space-100 {
+	margin-bottom: 100px;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/* colours */
+
+.white {
+	color: #FFFFFF;
+}
+
+.green {
+	color: #72FBD7;
+}
+
+.black {
+	color: #222222;
+}
+
+/* html {
+	background-color: #0115CE;
+} */
+
+
+/* Typography */
+
+@font-face {
+  font-family: "mark-book";
+  src: url("fonts/MarkNaceroWeb-Book.woff2") format("woff2"),
+    url("fonts/MarkNaceroWeb-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mark-bold";
+  src: url("fonts/MarkNaceroWeb-Bold.woff2") format("woff2"),
+    url("fonts/MarkNaceroWeb-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.headline {
+	font-family: ivypresto-display,serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 90px;
+	line-height: 105%;
+}
+
+.eyebrow {
+  font-family: mark-bold,sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  line-height: 1.5;
+}
+
+.body-copy {
+	font-family: mark-book,sans-serif;
+   font-size: 1rem; /* 16px */
+   line-height: 1.5;
+}
+
+.body-copy-bold {
+	font-family: mark-bold,sans-serif;
+   font-size: 1.125rem; /* 18px */
+   line-height: 1.5;
+}
+
+/* end of: Typography */
+
+
+
+/* old-code */
+
+img {
+	width: 1440px;
+}
+.video-fill {
+	width: 1440px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.swap-out {
+	margin-top: -200px;
+}
+
+.morespace {
+	margin-top: 200px;
+}
+
+
+
+/* header-block */
+
+#header-block {
+	padding-top: 210px;
+	padding-bottom: 60px;
+	background-color: #0115CE;
+}
+
+#header-block .body-copy {
+	max-width: 350px;
+}
+
+.type-wrapper {
+	max-width: 1440px;
+	padding: 0 60px 0 60px;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
