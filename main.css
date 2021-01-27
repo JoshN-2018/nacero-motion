@@ -31,6 +31,7 @@
 html {
   box-sizing: border-box;
   color: #222222;
+  background-color: #f8f8f8;
 }
 
 *, *:before, *:after {
@@ -149,7 +150,7 @@ img {
 
 /* header-block */
 
-#header-block {
+.header-block {
 	padding-top: 210px;
 	padding-bottom: 60px;
 	background-color: #0115CE;
@@ -172,11 +173,42 @@ img {
 .rule {
 	height: 1px;
 	background-color: #FFF;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.warning-block {
+	background-color: black;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.warning-block .headline-2, .body-copy {
+	text-align: center;
 }
 
 /* browser resize */
 
+@media (max-width: 1360px) {
+	.header-block {
+		display: none;
+	}
 
+	.content {
+		display: none;
+	}
+}
+
+@media (min-width: 1359px) {
+
+	.warning-block {
+		display: none;
+	}
+
+}
 
 
 
