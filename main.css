@@ -20,9 +20,17 @@
 	margin-bottom: 100px;
 }
 
+.separated-spacer {
+	height: 100px;
+}
+
+.connected-spacer {
+	height: 40px;
+}
 
 html {
   box-sizing: border-box;
+  color: #222222;
 }
 
 *, *:before, *:after {
@@ -68,12 +76,28 @@ html {
   font-style: normal;
 }
 
-.headline {
+.hero {
+	font-family: ivypresto-display,serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 128px;
+	line-height: 105%;
+}
+
+.headline-1 {
 	font-family: ivypresto-display,serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size: 90px;
 	line-height: 105%;
+}
+
+.headline-2  {
+  font-family: mark-bold,sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .eyebrow {
@@ -132,7 +156,7 @@ img {
 }
 
 #header-block .body-copy {
-	max-width: 350px;
+	max-width: 600px;
 }
 
 .type-wrapper {
@@ -141,7 +165,16 @@ img {
 	position: relative;
 }
 
+.title-box {
+	max-width: 600px;
+}
 
+.rule {
+	height: 1px;
+	background-color: #FFF;
+}
+
+/* browser resize */
 
 
 
