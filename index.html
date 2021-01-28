@@ -52,7 +52,7 @@
       <section class="header-block" id="header-typography">
          <div class="container">
             <h4 class="eyebrow green space-24">Fundamentals</h4>
-            <h1 class="headline-1 white">1.1 — Typography</h1>
+            <h1 class="headline-1 white">1.1 &#8211; Typography</h1>
          </div>
 
       </section>
@@ -61,18 +61,21 @@
       <!-- content -->
       <section class="container content" id="content-typography">
 
-         <div class="separated-spacer"></div>
+         <div class="space-100"></div>
 
+
+         <!-- item 1 -->
          <div class="type-wrapper title-box">
             <h2 class="headline-2">Heading — speed 1</h2>
-            <p class="body-copy">The below is an overview of the nacero motion design system. Each of these animations is a video file, so while this may look real it is still a prototype.</p>
+            <p class="body-copy">Headlines are animated per character. To ensure the load time is always pleasingly brief there are different speeds for different lengths of line. Speed 1 is the slower of the two. And should be used only for short statements and the largest the text sizes. 
+            </p>
          </div>
 
          <div class="connected-spacer"></div>
 
          <video muted autoplay loop>
             <source
-              src="videos/heading-speed-1.mp4"
+              src="videos/typography/heading-speed-1.mp4"
               type="video/mp4"
             />
          </video>
@@ -81,26 +84,159 @@
 
 
 
+         <!-- item 2 -->
          <div class="title-box">
-            <h2 class="headline-2">Heading — speed 1</h2>
-            <p class="body-copy">The below is an overview of the nacero motion design system. Each of these animations is a video file, so while this may look real it is still a prototype.</p>
+            <h2 class="headline-2">Heading — speed 2</h2>
+            <p class="body-copy">Headlines are animated per character. To ensure the load time is always pleasingly brief there are different speeds for different lengths of line. Speed 2 is the faster of the two, and should be used for longer statements and smaller text sizes. 
+            </p>
          </div>
 
          <div class="connected-spacer"></div>
 
          <video muted autoplay loop>
           <source
-            src="videos/heading-speed-2.mp4"
+            src="videos/typography/heading-speed-2.mp4"
             type="video/mp4"
           />
          </video>
 
+         <div class="separated-spacer"></div>
 
+
+
+         <!-- item 3 -->
+         <div class="title-box">
+            <h2 class="headline-2">body</h2>
+            <p class="body-copy">Body text is animated by line. There is only one speed for both bold and book weights.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="scale-50">
+          <source
+            src="videos/typography/body-copy.mp4"
+            type="video/mp4"
+          />
+         </video>
 
          <div class="separated-spacer"></div>
+
+
+
+         <!-- item 4 -->
+         <div class="title-box">
+            <h2 class="headline-2">block quote</h2>
+            <p class="body-copy">Block quote animation is scaled up version of our sequence for body text. In addition to the block quote component this can be used when line lengths are too long for ‘heading-speed-2’.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+          <source
+            src="videos/typography/block-quote.mp4"
+            type="video/mp4"
+          />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 5 -->
+         <div class="title-box">
+            <h2 class="headline-2">number block</h2>
+            <p class="body-copy">Our numbers count up from the last 5% of the value for larger numbers and the last 50% of the value for smaller numbers. Supporting type uses our standard ‘body’ animation and the numbers themselves use ‘block-quote’.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+          <source
+            src="videos/typography/numbers.mp4"
+            type="video/mp4"
+          />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 6 -->
+         <div class="title-box">
+            <h2 class="headline-2">body copy sideways</h2>
+            <p class="body-copy">Body text can also react to lateral movements by its parent object. This is effect is animated by line.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="scale-25">
+          <source
+            src="videos/typography/body-copy-side.mp4"
+            type="video/mp4"
+          />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
          <div class="separated-spacer"></div>
 
       </section>
+
+
+
+
+
+
+      <!-- Parallax -->
+
+
+            <!-- heading -->
+            <section class="header-block" id="header-parallax">
+               <div class="container">
+                  <h4 class="eyebrow green space-24">Fundamentals</h4>
+                  <h1 class="headline-1 white">1.2 &#8211; Parallax</h1>
+               </div>
+
+            </section>
+
+
+            <!-- content -->
+            <section class="container content" id="content-parallax">
+
+               <div class="space-100"></div>
+
+
+               <!-- item 1 -->
+               <div class="type-wrapper title-box">
+                  <h2 class="headline-2">Parallax effect in scroll</h2>
+                  <p class="body-copy">Parallax creates an illusion of depth whereby ‘closer’ objects move more quickly and ‘further away’ objects move more slowly. The effect is driven relative to the scroll position.
+                  </p>
+               </div>
+
+               <div class="connected-spacer"></div>
+
+               <video muted autoplay loop class="video-fill">
+                  <source
+                    src="videos/parallax/parallax-scroll.mp4"
+                    type="video/mp4"
+                  />
+               </video>
+
+               <div class="separated-spacer"></div>
+
+
+               <div class="separated-spacer"></div>
+
+            </section>
+
+
+
+
 
 
 <!-- Appearance -->
@@ -109,8 +245,8 @@
       <!-- heading -->
       <section class="header-block" id="header-appearance">
          <div class="container">
-            <h4 class="eyebrow green space-24">motion System</h4>
-            <h1 class="headline-1 white">02 — Appearance</h1>
+            <h4 class="eyebrow green space-24">Macro</h4>
+            <h1 class="headline-1 white">02 &#8211; Appearance</h1>
          </div>
 
       </section>
@@ -119,18 +255,21 @@
       <!-- content -->
       <section class="container content" id="content-appearance">
 
-         <div class="separated-spacer"></div>
+         <div class="space-100"></div>
 
-         <div class="title-box">
-            <h2 class="headline-2">Heading — speed 1</h2>
-            <p class="body-copy">The below is an overview of the nacero motion design system. Each of these animations is a video file, so while this may look real it is still a prototype.</p>
+
+         <!-- item 1 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">Hero sections</h2>
+            <p class="body-copy">Images load at 120% size and scale down creating the impression content lands on the page. Other elements then enter sequentially in a cascade. 
+            </p>
          </div>
 
          <div class="connected-spacer"></div>
 
-         <video muted autoplay loop>
+         <video muted autoplay loop class="video-fill">
             <source
-              src="videos/heading-speed-1.mp4"
+              src="videos/appearance/hero-section.mp4"
               type="video/mp4"
             />
          </video>
@@ -139,26 +278,220 @@
 
 
 
-         <div class="title-box">
-            <h2 class="headline-2">Heading — speed 1</h2>
-            <p class="body-copy">The below is an overview of the nacero motion design system. Each of these animations is a video file, so while this may look real it is still a prototype.</p>
+         <!-- item 2 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">standard sections</h2>
+            <p class="body-copy">The image enters first with the same animation as hero sections but cropped within the image frame. Type then enters in a cascade in the following order: heading, body, and lastly icons and micro copy.
+            </p>
          </div>
 
          <div class="connected-spacer"></div>
 
-         <video muted autoplay loop>
-          <source
-            src="videos/heading-speed-2.mp4"
-            type="video/mp4"
-          />
+         <video muted autoplay loop class="video-fill">
+            <source
+              src="videos/appearance/standard-section.mp4"
+              type="video/mp4"
+            />
          </video>
 
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 3 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">article cards</h2>
+            <p class="body-copy">Each layer of the component loads slightly offset, this happens both inside the cards and with supporting elements.  
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+            <source
+              src="videos/appearance/article-cards.mp4"
+              type="video/mp4"
+            />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 4 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">global header</h2>
+            <p class="body-copy">On load the Global Header loads sequentially from left to write mimicking the action of the headline typography.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+            <source
+              src="videos/appearance/nav.mp4"
+              type="video/mp4"
+            />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 5 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">subject block</h2>
+            <p class="body-copy">Type cascades in sequentially according to the effects defined in the typography section with the support icons appearing last.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+            <source
+              src="videos/appearance/subject-block.mp4"
+              type="video/mp4"
+            />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
 
 
          <div class="separated-spacer"></div>
-         <div class="separated-spacer"></div>
+      </section>
+
+
+
+
+
+
+
+<!-- Micro Interactions -->
+
+
+      <!-- heading -->
+      <section class="header-block" id="header-micro">
+         <div class="container">
+            <h4 class="eyebrow green space-24">Micro</h4>
+            <h1 class="headline-1 white">03 &#8211; Micro interactions</h1>
+         </div>
 
       </section>
+
+
+      <!-- content -->
+      <section class="container content" id="content-micro">
+
+         <div class="space-100"></div>
+
+
+         <!-- item 1 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">links</h2>
+            <p class="body-copy">Link underlines enter from the left and exit on the right. There is a delay on each line creating visual interest.
+
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="null">
+            <source
+              src="videos/appearance/links.mp4"
+              type="video/mp4"
+            />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 2 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">standard sections</h2>
+            <p class="body-copy">The image enters first with the same animation as hero sections but cropped within the image frame. Type then enters in a cascade in the following order: heading, body, and lastly icons and micro copy.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+            <source
+              src="videos/appearance/standard-section.mp4"
+              type="video/mp4"
+            />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 3 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">article cards</h2>
+            <p class="body-copy">Each layer of the component loads slightly offset, this happens both inside the cards and with supporting elements.  
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+            <source
+              src="videos/appearance/article-cards.mp4"
+              type="video/mp4"
+            />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 4 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">global header</h2>
+            <p class="body-copy">On load the Global Header loads sequentially from left to write mimicking the action of the headline typography.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+            <source
+              src="videos/appearance/nav.mp4"
+              type="video/mp4"
+            />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+         <!-- item 5 -->
+         <div class="type-wrapper title-box">
+            <h2 class="headline-2">subject block</h2>
+            <p class="body-copy">Type cascades in sequentially according to the effects defined in the typography section with the support icons appearing last.
+            </p>
+         </div>
+
+         <div class="connected-spacer"></div>
+
+         <video muted autoplay loop class="video-fill">
+            <source
+              src="videos/appearance/subject-block.mp4"
+              type="video/mp4"
+            />
+         </video>
+
+         <div class="separated-spacer"></div>
+
+
+
+
+         <div class="separated-spacer"></div>
+      </section>
+
 
 
    </body>
