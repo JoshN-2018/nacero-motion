@@ -303,7 +303,7 @@ a:visited {
 #nav-widget {
    position: fixed;
    bottom: 40px;
-   left: 40px;
+   left: 20px;
    max-width: 200px;
 }
 
@@ -312,11 +312,12 @@ a:visited {
    line-height: 1.3;
    margin-bottom: 24px;
    cursor: pointer;
-   font-size: 14px;
+   font-size: 12px;
+   opacity: 0.5;
 }
 
 #nav-widget p:hover {
-   opacity: 0.5;
+   opacity: 1;
    transition: all 300ms ease;
 }
 
